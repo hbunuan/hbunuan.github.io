@@ -10,17 +10,18 @@ body {
 
 .main {
 	background: rgba(255,255,255,0.8);
-	width: 600px;
+	max-width: 600px;
 	margin: 0 auto;
 	padding: 20px;
 	border-radius: 20px;
 }
 
 h1 {
+	font-family: 'PT Serif', serif;
 	text-align: center;
 	border-bottom: 2px solid black;
 	padding-bottom: 20px;
-	text-shadow: 10px 10px 10px red;
+	text-shadow: 10px 10px 10px grey;
 }
 
 h2 {
@@ -34,9 +35,13 @@ h2 {
 img{
 	display: block;
 	margin: 0 auto;
+	width: 300px;
 	border: 5px dotted #cc6699;
 	border-radius: 50% 0 25% 20px;
 }
+
+/* Like 
+this */
 
 p,
 ul,
@@ -51,6 +56,7 @@ a{
 	text-decoration: none;
 	color: blue;
 }
+
 a:hover{
 	color: #990066;
 	text-decoration: underline;
